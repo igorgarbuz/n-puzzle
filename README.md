@@ -1,7 +1,7 @@
-# n_puzzle
+# n-puzzle
 
-Variant of 15 puzzle game with auto-solver and complexity analysis
-
+Variant of 15 puzzle game with auto-solver and complexity analysis.
+[Try deployed in github pages.](https://igorvg.github.io/n-puzzle/)
 ## How to use
 
 ```bash
