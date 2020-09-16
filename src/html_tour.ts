@@ -10,6 +10,11 @@ export function startTour(callback: any): void {
   intro.setOptions({
     steps: [
       {
+        element: '.help-button',
+        intro: 'Navigate through this tour using arrows <b>[&#8592;, &#8594;]</b>. Exit at any time with <b>Esc</b>.<br>',
+        position: 'bottom'
+      },
+      {
         element: '.main-container',
         intro: '<b>[N]ext-puzzle</b> is a game based on the classical <a href="https://en.wikipedia.org/wiki/15_puzzle" target="_blank">15-puzzle</a>,'
         + ' but with several exceptions:<br> '

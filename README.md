@@ -30,7 +30,7 @@ It creating is motivated by a deep interest in pathfinding algorithms and its ap
 ## How to use locally
 
 ```bash
-# clone the repository
+# Clone the repository
 git clone https://github.com/igorgarbuz/n-puzzle
 cd n-puzzle
 
@@ -45,9 +45,9 @@ make docker
 make setup
 make build
 
-# run the cli for command-line interface
+# Run the cli for command-line interface
 ./solver-cli
 
-# use the web UI at http://127.0.0.1:8080/
+# Use the web UI at http://127.0.0.1:8080/
 make serve
 ```
