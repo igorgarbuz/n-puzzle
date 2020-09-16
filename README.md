@@ -22,7 +22,7 @@ It creating is motivated by a deep interest in pathfinding algorithms and its ap
 |Hamming|Yes|Simple heuristic that represents the number of misplaced tiles.|
 |Euclidean|Yes|Estimates distances between current and solved board states if tiles were moved in straight lines.|
 |Manhattan|Yes|Estimates distances between current and solved board states according to <a href="https://en.wikipedia.org/wiki/Taxicab_geometry" target="_blank">taxicab geometry</a> (a.k.a L<sub>1</sub> norm).|
-|Linear conflict|No|Based on manhattan distance, with an additional amendment on tiles that are in the same line or column and must be moved behind each other. It's described in the <a href="https://cse.sc.edu/~mgv/csce580sp15/gradPres/HanssonMayerYung1992.pdf" target="_blank">original article.</a>|
+|Linear conflict|No|Based on manhattan distance, with an additional amendment on tiles that are in the same line or column and must be moved behind each other. It's described in the <a href="https://cse.sc.edu/~mgv/csce580sp15/gradPres/HanssonMayerYung1992.pdf" target="_blank">original article</a>.|
 |Permutation number|No|Primitive heuristic computes the number of tiles out of increasing order. Thus it skips tiles that are both ordered and misplaced.|
 
 <br>
