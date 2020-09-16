@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1 shrink-to-fit=no">
+
+    <title>Next-puzzle</title>
+
+    <!-- Style css -->
+    <link rel='stylesheet' href='./style/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='./style/introjs.css' type='text/css' media='all' />
+
+    <!-- <script type='module' src='./dist/main.js'></script> -->
+    <script type='module' src='./dist/bundle.js'></script>
+</head>
+  <body>
+    <div class="main-container">
+
+      <div class='above-game'>
+
+        <div class='heading'>
+          <h1 class='title'> [N]ext-puzzle </h1>
+          <div class='score-container'>0</div>
+          <button class='help-button btn btn-danger'>?</button>
+        </div>
+
+        <div class='results-container'>
+          <div class='status-container'>> Ready <</div>
+          <div class='time-container'>NA</div>
+          <div class='compl-size-container'>NA</div>
+          <div class='compl-time-container'>NA</div>
+        </div>
+
+        <div class='parameters-container'>
+          <div class='size-field-container'>
+            <p class='annotations'>Size:</p>
+            <input type='number' class='size-field' data-toggle="popover" value='4' min='2' max='100'></input>
+          </div>
+          <div class='complexity-field-container'>
+            <p class='annotations'>Shuffle comp.:</p>
+            <input type='number' class='complexity-field' value='42' min='0' max='65536'></input>
+          </div>
+          <div class='solvable-checkbox-container'>
+            <!-- <label for='checkbox-solvable'>Solvable:</label> -->
+            <p class='annotations'>Solvable:</p>
+            <input type='checkbox' class='checkbox-solvable' checked></input>
+          </div>
+          <div class='moves-container'>(MOVES)</div>
+        </div>
+
+        <div class='algorithms-container'>
+          <div>
+            <p class='annotations'>Anim. speed:</p>
+            <select name='speed' class='select-speed'>
+              <!-- <option  disabled value=''>-speed-</option> -->
+              <option value='Slow'>Slow</option>
+              <option value='Normal' selected='selected'>Normal</option>
+              <option value='Fast'>Fast</option>
+            </select>
+          </div>
+          <div>
+            <p class='annotations'>Algorithm:</p>
+            <select name='algo' class='select-algo'>
+              <!-- <option  disabled value=''>-algo-</option> -->
+              <option value='slow-a*'>A*</option>
+              <option value='a*' selected='selected'>A* opt.</option>
+              <option value='best-first'>Best-1st</option>
+            </select>
+          </div>
+          <div>
+            <p class='annotations'>Heuristic:</p>
+            <select name='heuristic' class='select-heuristic'>
+              <!-- <option  disabled value=''>-heuristic-</option> -->
+              <option value='hamming'>Hamming</option>
+              <option value='cartesian'>Euclidean</option>
+              <option value='manhattan'>Manhattan</option>
+              <option value='linear-conflict' selected='selected'>Linear conflict</option>
+              <option value='permutations'>Permutation nb.</option>
+            </select>
+          </div>
+        </div>
+
+        <div class='buttons-container' id="buttons">
+          <button class='shuffle-button btn btn-primary'>New game</button>
+          <button class='restart-button btn btn-primary'>Replay</button>
+          <button class='solve-button btn btn-primary'>Solve</button>
+        </div>
+      </div>
+
+      <div class='game-container'>
+        <canvas id='boardcanvas' width='500px' height='500px'></canvas>
+      </div>
+    </div>
+  </body>
+</html>
