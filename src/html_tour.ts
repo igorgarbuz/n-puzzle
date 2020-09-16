@@ -53,7 +53,7 @@ export function startTour(callback: any): void {
       },
       {
         element: '.compl-time-container',
-        intro: 'Time complexity (solving algorithm) - total number of graph nodes created.',
+        intro: 'Time complexity (solving algorithm) - total number of search iterations through the priority queue.',
         position: 'right'
       },
       {
