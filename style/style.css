@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@0;1&display=swap');
+@import 'introjs.css';
 
 #main-window[chromehidden*="toolbar"] #nav-bar {
   visibility: collapse;
@@ -12,6 +13,7 @@ html, body, button {
   font-family: 'Roboto Mono', monospace;
   font-style: italic;
   font-size: 13px;
+  -webkit-appearance: none;
 }
 
 @media screen and (max-width: 560px) {
@@ -58,7 +60,7 @@ canvas {
 .heading {
   height: 80px;
   display: block;
-  margin-block-start: 20px;
+  margin-block-start: 10px;
 }
 
 h1.title {
@@ -307,9 +309,24 @@ select:focus {
 }
 
 .game-container {
-  margin-top: 20px;
+  margin-top: 15px;
   position: relative;
   cursor: default;
   box-sizing: border-box;
   text-align: center;
+}
+
+.icons-bar {
+  padding-top: 2px;
+  text-align: center;
+  width: 100%;
+}
+
+.icon {
+  width: 14px;
+  fill: #1447ac;
+}
+
+.icon:hover {
+  opacity: 0.8;
 }
