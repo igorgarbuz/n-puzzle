@@ -5,7 +5,7 @@ Current is an implementation of [15 puzzle](https://en.wikipedia.org/wiki/15_puz
 We built it because of a deep interest in pathfinding algorithms and its applications. TypeScript was choosen for this project due of its versatility (e.g. data structures) and the execution speed, but mostly because we wanted to bring the visualization at people's fingertips.  
 <br>
 
-<img src="https://previews.dropbox.com/p/orig/AA_J8IYuij3veo8wnpQOF7eJ5ybihIK_VVdU1J8ncil9jjHh-KUhS0YuFrWcrF_HhD8uawmxIzj7MLMTTXilnf7jxvQGo_exSOVxVtuXwucEWoCgDmgvYO5Jrj9Jq-gi05-XEwYgjfIIh8jq988KMpQq3yZpuoWkc9eVAAN6yGBukItXFUuaxg_8FaqeNGCemIEVFuMXrqbcdykHZA9gZCkTZdT-MQnM1Ndn-9IhQyBeIbZ0mV15VCxshuHWLsmuqUiF33o-SI2tLluqhTrJIjbmAlLVT3sgUBoOxz11tg5GYs0fZ_zCrwOUmECuNTIv1Yk/p.gif?fv_content=true&size_mode=5" alt="N-puzzle demo">
+![n-puzzle-demo](https://github.com/igorgarbuz/cdn/blob/main/n-puzzle/n-puzzle-demo.gif)
 
 <a href="https://igorgarbuz.github.io/n-puzzle/" target="_blank"><strong>> Play around <</strong></a><span>&nbsp; &mdash; &nbsp;</span> UI fits for both mobile and desktop. Start with a guided tour by clicking the red help button on the top. 
 
