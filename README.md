@@ -1,4 +1,4 @@
-# n-puzzle
+# <a href="https://igorgarbuz.github.io/n-puzzle/">n-puzzle</a>
 
 Welcome to the n-puzzle playground!  
 Current is an implementation of [15 puzzle](https://en.wikipedia.org/wiki/15_puzzle) game with an algorithmic solver and complexity analysis.  
